@@ -10,11 +10,11 @@ The result can be run easily in a docker container
 
 The output can be generated using the Makefile provided.
 
-Run:
-`make help` Show the makefile
-`make build` Generates the docker container image
-`make test` Run unit test
-`make run` Run the latest docker image generated
+Commands:
+* `make help` Show the makefile
+* `make build` Generates the docker container image
+* `make test` Run unit test
+* `make run` Run the latest docker image generated
 
 ## Dependencies
 
