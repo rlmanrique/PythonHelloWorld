@@ -1,3 +1,7 @@
+.PHONY: help
+help:
+	cat Makefile
+
 .PHONY: build
 build:
 	docker build -t hello:latest .
